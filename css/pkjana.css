@@ -1,3 +1,74 @@
 html{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family: "open-sans", sans-serif;
+    color: #3a3a3a;
+    font-weight: 200;
+}
 
+
+.post-show, .course-show {
+    padding-top: 7.1875rem;
+}
+.post-show-background, .course-show .post-show-background {
+    background: #0d6085 url(../images/bg-mast.png) 0 0 repeat;
+    /*background-size: cover;*/
+    padding: 3rem 0;
+}
+.post-header-info-container{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 100%;
+}
+.post-header-image-container{
+    float: left;
+}
+.post-header-info{
+    padding: 0 2rem;
+}
+.post-header-info-title,.post-header-info-date{
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #3a3a3a;
+
+}
+
+/*social media*/
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+
+#social-gh:hover{
+    color: #444444;
+}
+#social-ln:hover{
+    color: #007BB6;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
 }
