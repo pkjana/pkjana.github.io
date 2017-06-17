@@ -10,7 +10,22 @@ body{
     color: #3a3a3a;
     font-weight: 200;
 }
+.navbar-custom {
+    background: #2C3E50;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
 
+}
+.navbar-brand,.navbar-nav li a{
+    color: #fff !important;
+}
+header {
+    /*text-align: center;*/
+    /*background: #18BC9C;*/
+    color: #fff;
+}
 
 .post-show, .course-show {
     padding-top: 7.1875rem;
@@ -71,4 +86,13 @@ body{
 }
 #social-gp:hover {
     color: #d34836;
+}
+
+/*---------footer-------------------*/
+footer {
+    color: #fff;
+}
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
 }
