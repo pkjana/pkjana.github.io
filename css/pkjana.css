@@ -16,10 +16,24 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     border: none;
+    height: 60px;
 
 }
 .navbar-brand,.navbar-nav li a{
     color: #fff !important;
+}
+.logo {
+    /*    float: left;
+        padding-top: 10px;*/
+    padding: 10px 10px 0 10px;
+}
+.name{
+    font-size: 24px;
+    color: #fff;
+    padding-top: 15px;
+    /*padding-left: 20px;*/
+    text-transform: none !important;
+
 }
 header {
     /*text-align: center;*/
@@ -33,7 +47,7 @@ header {
     /*background-size: cover;*/
     padding: 3rem 0;
     /*height: 600px;*/
-    
+
 }
 .post-header-info-container{
     -webkit-box-align: center;
@@ -49,12 +63,20 @@ header {
     padding: 0 2rem;
 }
 .post-header-info-title,.post-header-info-date{
-    color: #ffffff;
+    color: #fff;
     text-shadow: 1px 1px 2px #3a3a3a;
 
 }
-
+.post-header-info-date a{
+    color: #fff;
+    text-shadow: 1px 1px 2px #3a3a3a;
+    text-decoration: none;
+}
 /*social media*/
+.social-icon-info{
+    color:#fff;
+    text-shadow: 1px 1px 2px #3a3a3a;
+}
 .social:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -74,6 +96,12 @@ header {
 /*
     Multicoloured Hover Variations
 */
+#social-gh{
+
+}
+#social-ln{
+    
+}
 
 #social-gh:hover{
     color: #444444;
