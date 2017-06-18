@@ -27,13 +27,13 @@ header {
     color: #fff;
 }
 
-.post-show, .course-show {
-    padding-top: 7.1875rem;
-}
-.post-show-background, .course-show .post-show-background {
+
+.post-show-background, .post-show-background {
     background: #0d6085 url(../images/bg-mast.png) 0 0 repeat;
     /*background-size: cover;*/
     padding: 3rem 0;
+    /*height: 600px;*/
+    
 }
 .post-header-info-container{
     -webkit-box-align: center;
