@@ -96,12 +96,6 @@ header {
 /*
     Multicoloured Hover Variations
 */
-#social-gh{
-
-}
-#social-ln{
-    
-}
 
 #social-gh:hover{
     color: #444444;
@@ -112,10 +106,13 @@ header {
 #social-tw:hover {
     color: #4099FF;
 }
-#social-gp:hover {
+#social-em:hover {
     color: #d34836;
 }
-
+ #social-sk:hover {
+     color: #f39c12;
+ }
+ 
 /*---------footer-------------------*/
 footer {
     color: #fff;
