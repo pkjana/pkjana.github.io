@@ -168,13 +168,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            &copy; 2017, Pabitra K Jana | Last Update on June 17, 2017
+                            &copy; 2017, Pabitra K Jana | Last Update on &nbsp;<span id="last-update-on"></span>
                         </div>
-						 <div class="col-lg-6 text-right center-block">            
-							<a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
-							<a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-2x social"></i></a>
-							<a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-2x social"></i></a>
-							<a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-2x social"></i></a>
+						 <div class="col-lg-6 text-right center-block">  
+							<a href="https://github.com/pkjana" target="_blank"><i id="social-gh" class="fa fa-github-square fa-2x social"></i></a>    
+                            <a href="https://www.linkedin.com/in/pkjana/" target="_blank"><i id="social-ln" class="fa fa-linkedin-square fa-2x social"></i></a>																	 
+							<a href="https://www.facebook.com/pkjana" target="_blank"><i class="fa fa-facebook-square fa-2x social"></i></a>
+							<a href="https://twitter.com/pkjana" target="_blank"><i class="fa fa-twitter-square fa-2x social"></i></a>							
+							<a href="mailto:pkjana81@gmail.com"><i class="fa fa-envelope-square fa-2x social"></i></a>							
+							<a href="skype:pkjana81?call"><i class="fa fa-skype fa-2x social" aria-hidden="true"></i></a> 	
 						</div>
                     </div>
                 </div>
@@ -183,27 +185,6 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script>
-            $(document).ready(function () {
-
-                // hide .navbar first
-                $(".navbar").hide();
-
-                // fade in .navbar
-                $(function () {
-                    $(window).scroll(function () {
-                        // set distance user needs to scroll before we fadeIn navbar
-                        if ($(this).scrollTop() > 100) {
-                            $('.navbar').fadeIn();
-                        } else {
-                            $('.navbar').fadeOut();
-                        }
-                    });
-
-
-                });
-
-            });
-        </script>
+        <script src="js/pkjana.js"></script>
     </body>
 </html>
