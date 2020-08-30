@@ -22,8 +22,20 @@ $(document).ready(function () {
                     });
 				//Get the repo last commit date				
 					$.ajax({url: "https://api.github.com/repos/pkjana/pkjana.github.io/commits/master", success: function(result){						
-							$("#last-update-on").html(result.commit.author.date);
+							$("#update-on").html(result.commit.author.date);
 					}});				
 
                 });
+				
+				//section padding top setting while navbar item click
+				$(".about").click(function(){
+					$("#about").css("padding-top", $(".navbar").height());
+				});
+				$(".portfolio").click(function(){
+					$("#portfolio").css("padding-top", $(".navbar").height());
+				});
+				$(".contact").click(function(){
+					$("#contact").css("padding-top", $(".navbar").height());
+				});
+				
 });
